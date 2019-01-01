@@ -9,5 +9,7 @@ Requirements
 Running
 -------
 
-    var db = new PouchDB('mydb', {adapter: 'idb'});
-    db2.purgeOnDelete(); // Now any docs that are removed will be purged as well
+```js
+var db = new PouchDB('mydb', {adapter: 'idb-purge'});
+db2.purgeOnDelete(); // Now any docs that are removed will be purged as well
+```
