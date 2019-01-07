@@ -1,6 +1,6 @@
 {
   "name": "pouchdb-purge-on-delete",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "RPC handler for any type of transport",
   "license": "MIT",
   "author": {
